@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ .container {
+  width: 80%; /* Largeur de votre container */
+  margin: 50px auto 0; /* Ajoute de l'espace en haut et centre le container horizontalement */
+  padding: 20px; /* Ajoute un espace intérieur au container pour le style */
+  background-color: #f8f8f8; /* Couleur de fond du container (gris clair) */
+  border-radius: 4%; /* Arrondi les coins du container */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajoute une ombre au container */
+}
+
+/* Style du texte à l'intérieur du container */
+.container p {
+  color: #333; /* Couleur du texte (gris foncé) */
+  font-size: 16px; /* Taille de police */
+  line-height: 1.5; /* Hauteur de ligne */
+}
